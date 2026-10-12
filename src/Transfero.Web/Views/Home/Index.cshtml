@@ -1,8 +1,204 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<main class="transfero-home">
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <span class="hero-label">A smarter way to transfer</span>
+
+            <h1>
+                Your next teaching
+                <span>opportunity starts here.</span>
+            </h1>
+
+            <p class="hero-description">
+                Transfero connects South African teachers with transfer
+                opportunities that match their subjects, experience and
+                preferred destinations.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#services" class="btn-primary">
+                    Explore opportunities
+                </a>
+
+                <a href="#how-it-works" class="btn-secondary">
+                    How it works
+                </a>
+            </div>
+
+            <div class="hero-note">
+                <span class="status-dot"></span>
+                Built around teachers, their goals and their communities.
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="visual-card main-visual-card">
+                <div class="visual-icon">T</div>
+                <p class="visual-eyebrow">YOUR NEXT CHAPTER</p>
+                <h2>A better fit.<br />A new beginning.</h2>
+                <p class="visual-description">
+                    Find opportunities closer to the life you want.
+                </p>
+
+                <div class="visual-divider"></div>
+
+                <div class="visual-footer">
+                    <span class="visual-avatar">ED</span>
+                    <div>
+                        <strong>Made for educators</strong>
+                        <p>Connecting teachers and schools</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="floating-card floating-card-top">
+                <span class="floating-icon">↔</span>
+                <div>
+                    <strong>Single Transfer</strong>
+                    <p>Find a reciprocal match</p>
+                </div>
+            </div>
+
+            <div class="floating-card floating-card-bottom">
+                <span class="floating-icon">✓</span>
+                <div>
+                    <strong>Cross Transfer</strong>
+                    <p>Explore school vacancies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="section-heading">
+            <span class="section-label">TWO WAYS TO MOVE FORWARD</span>
+            <h2>Find the transfer path that works for you.</h2>
+            <p>
+                Whether you're looking for a teacher exchange or a new
+                school opportunity, Transfero gives you a place to start.
+            </p>
+        </div>
+
+        <div class="service-grid">
+
+            <!-- Single Transfer -->
+            <article class="service-card">
+                <div class="service-icon single-icon">↔</div>
+
+                <span class="service-tag">TEACHER TO TEACHER</span>
+
+                <h3>Single Transfer</h3>
+
+                <p>
+                    Looking to move to another circuit? Find another teacher
+                    whose preferred destination aligns with your current
+                    location and whose teaching profile is compatible with yours.
+                </p>
+
+                <ul class="service-list">
+                    <li>Match with teachers seeking reciprocal transfers</li>
+                    <li>Compare subjects, grades and teaching phases</li>
+                    <li>Send and respond to transfer invitations</li>
+                </ul>
+
+                <a href="#" class="service-link">
+                    Explore single transfers <span>→</span>
+                </a>
+            </article>
+
+            <!-- Cross Transfer -->
+            <article class="service-card featured-service">
+                <div class="service-icon cross-icon">⌂</div>
+
+                <span class="service-tag">TEACHER TO SCHOOL</span>
+
+                <h3>Cross Transfer</h3>
+
+                <p>
+                    Interested in a school with a suitable vacancy?
+                    Explore opportunities that fit your teaching
+                    subjects, grades and experience.
+                </p>
+
+                <ul class="service-list">
+                    <li>Discover relevant school vacancies</li>
+                    <li>Express interest in suitable opportunities</li>
+                    <li>Track applications and school responses</li>
+                </ul>
+
+                <a href="#" class="service-link">
+                    Explore school vacancies <span>→</span>
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-section" id="how-it-works">
+        <div class="section-heading">
+            <span class="section-label">SIMPLE BY DESIGN</span>
+            <h2>Your next move, made clearer.</h2>
+            <p>
+                A straightforward process that helps you explore
+                opportunities and connect with the right people.
+            </p>
+        </div>
+
+        <div class="steps-grid">
+
+            <article class="step-card">
+                <span class="step-number">01</span>
+                <h3>Create your profile</h3>
+                <p>
+                    Add your teaching subjects, experience, current location
+                    and preferred destination.
+                </p>
+            </article>
+
+            <article class="step-card">
+                <span class="step-number">02</span>
+                <h3>Explore your options</h3>
+                <p>
+                    Find compatible reciprocal transfers or browse relevant
+                    vacancies posted by schools.
+                </p>
+            </article>
+
+            <article class="step-card">
+                <span class="step-number">03</span>
+                <h3>Connect and respond</h3>
+                <p>
+                    Send invitations or apply for vacancies, then manage
+                    responses through your account.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section" id="about">
+        <div>
+            <span class="section-label">YOUR JOURNEY STARTS HERE</span>
+            <h2>Ready to explore a new opportunity?</h2>
+            <p>
+                Take the first step towards a teaching position that better
+                fits your goals.
+            </p>
+        </div>
+
+        <a href="#" class="cta-button">
+            Get started <span>→</span>
+        </a>
+    </section>
+
+</main>
+
